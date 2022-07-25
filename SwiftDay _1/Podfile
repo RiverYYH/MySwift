@@ -1,0 +1,20 @@
+platform :ios, '10.0'
+source 'https://github.com/CocoaPods/Specs.git'
+
+
+target 'SwiftDay _1' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for SwiftDay _1
+   pod 'SnapKit', '~> 5.0.1'
+  target 'SwiftDay _1Tests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+  target 'SwiftDay _1UITests' do
+    # Pods for testing
+  end
+
+end
